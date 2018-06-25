@@ -15,13 +15,13 @@ if(Serial.available()>0)
   {
     Serial.println(a);
     digitalWrite(led,HIGH);
-    delay(200);    
+      
   }
   if(a=='0')
   {
     Serial.println(a);
     digitalWrite(led,LOW);
-    delay(200);
+    
   }
   
 }  // put your main code here, to run repeatedly:
